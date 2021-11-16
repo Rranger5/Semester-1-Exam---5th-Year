@@ -25,7 +25,8 @@ print(name)
 
 
 ####Find out how many times the letter A occurs in the user's name
-print("The letter a occurs", name.count("A"), "times in your name.")
+aCount = name.count("A")
+print("The letter a occurs", aCount, "times in your name.")
 
 
 #### Create a conditional statement to ask a user to enter their age. If they are older than 18 they receive a message saying they can enter the competition, if they are under 18, they receive a message saying they cannot enter the competition.
