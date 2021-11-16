@@ -66,4 +66,4 @@ print(choice)
 
 
 ####Create another print statement that prints tha following output: The random square number is: XX, where XX is where the random square number chosen by the computer.(4 marks)
-print("The random square number is:", choice)
+print("The random square number is:", str(choice) + ", where", choice, "is the random square number chosen by the computer.")
