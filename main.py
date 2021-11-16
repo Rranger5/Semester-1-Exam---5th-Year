@@ -20,11 +20,12 @@ print("The first 4 characters in your name are:", name[:4])
 
 
 ####Convert the user's name to all uppercase characters and print the result
-print(name.upper())
+name = name.upper()
+print(name)
 
 
 ####Find out how many times the letter A occurs in the user's name
-print("The letter a occurs", name.count("a"), "times in your name.")
+print("The letter a occurs", name.count("A"), "times in your name.")
 
 
 #### Create a conditional statement to ask a user to enter their age. If they are older than 18 they receive a message saying they can enter the competition, if they are under 18, they receive a message saying they cannot enter the competition.
@@ -41,15 +42,11 @@ else:
 #### Create an empty list called squareNumbers (3 marks)
 squareNumbers = []
 
-
 #### Square numbers are the solutions to a number being multiplied by itself( example 1 is a square number because 1 X 1 = 1, 4 is a square number because 2 X 2 = 4 ). 
 ###Calculate the first 20 square numbers and put them in the list called squareNumbers. (With loop and .append 10 marks, without, Max 6 marks).
-squareNumbers = []
-
 for num in range(21):
-  squareNumbers.append(num ** 2)
-print(squareNumbers)
-
+  square = num * num
+  squareNumbers.append(square)
 
 ####Print your list (1 mark)
 print(squareNumbers)
